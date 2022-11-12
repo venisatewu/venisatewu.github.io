@@ -1,0 +1,48 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-small-img img
+{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+    float:left;
+
+}
+.product-small-img img:hover
+{
+    opacity: 1;
+}
+.product-small-img
+{
+    float:left;
+    padding: 5px;
+
+}
+.product
+{
+    /* content: "";
+    clear: both;
+    display: table; */
+    /* top: 40%; */
+    /* left: 3.1%; */
+    transform: translate(18%, 250%);
+    /* float: left; */
+    position: absolute;
+}
+.img-container img
+{
+    height: 400px;
+}
+.img-container
+{
+    float: left;
+    padding: 60px;
+    right: 100%;
+}
